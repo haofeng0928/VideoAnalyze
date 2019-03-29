@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/analyze">
+        <file>Resources/Camera.bmp</file>
+        <file>Resources/Camera_Offline.bmp</file>
+        <file>Resources/Folder.bmp</file>
+        <file>Resources/LocalDomain.bmp</file>
+        <file>Resources/warning.png</file>
+    </qresource>
+</RCC>

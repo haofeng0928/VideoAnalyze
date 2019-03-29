@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <ExecutablePath>D:\myInstall\IMOS_NetSDK_Win_V2.02(20170103)\imos_sdk_win\redist;D:\myInstall\opencv320\opencv\build\x86\vc12\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>D:\myInstall\IMOS_NetSDK_Win_V2.02(20170103)\imos_sdk_win\include;D:\myInstall\opencv320\opencv\build\include;D:\myInstall\opencv320\opencv\build\include\opencv;D:\myInstall\opencv320\opencv\build\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\myInstall\IMOS_NetSDK_Win_V2.02(20170103)\imos_sdk_win\lib;D:\myInstall\opencv320\opencv\build\x86\vc12\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opencv_world320d.lib;imos_sdk.lib;xp_frame.lib;sps_sdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

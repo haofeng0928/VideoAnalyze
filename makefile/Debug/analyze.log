@@ -1,0 +1,181 @@
+﻿生成启动时间为 2018/12/4 15:26:35。
+     1>项目“D:\myProject\myPresentation\makefile\analyze\analyze.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing analyze.h...
+         Uic'ing analyze.ui...
+         Moc'ing warningwidget.h...
+         Moc'ing videoplay.h...
+         Moc'ing selectdatedialog.h...
+         Moc'ing qcustomplot.h...
+         Moc'ing mycustomplot.h...
+         Moc'ing missionlistwidget.h...
+         Moc'ing missionitem.h...
+         Moc'ing login.h...
+         Moc'ing graphlistwidget.h...
+         Moc'ing datalistwidget.h...
+         Moc'ing cameralistwidget.h...
+         Rcc'ing analyze.qrc...
+         Uic'ing graphlistwidget.ui...
+         Uic'ing login.ui...
+         Uic'ing missionitem.ui...
+         Uic'ing missionlistwidget.ui...
+         Uic'ing selectdatedialog.ui...
+         Uic'ing videoplay.ui...
+         Uic'ing warningwidget.ui...
+       ClCompile:
+         C:\myInstall\vs2013\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\myInstall\qt5832_msvc2013\5.8\msvc2013\include /IC:\myInstall\qt5832_msvc2013\5.8\msvc2013\include\QtCore /IC:\myInstall\qt5832_msvc2013\5.8\msvc2013\include\QtGui /IC:\myInstall\qt5832_msvc2013\5.8\msvc2013\include\QtPrintSupport /IC:\myInstall\qt5832_msvc2013\5.8\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt analyze.cpp cameralistwidget.cpp datalistwidget.cpp GeneratedFiles\moc_analyze.cpp GeneratedFiles\moc_cameralistwidget.cpp GeneratedFiles\moc_datalistwidget.cpp GeneratedFiles\moc_graphlistwidget.cpp GeneratedFiles\moc_login.cpp GeneratedFiles\moc_missionitem.cpp GeneratedFiles\moc_missionlistwidget.cpp GeneratedFiles\moc_mycustomplot.cpp GeneratedFiles\moc_qcustomplot.cpp GeneratedFiles\moc_selectdatedialog.cpp GeneratedFiles\moc_videoplay.cpp GeneratedFiles\moc_warningwidget.cpp global.cpp graphdata.cpp graphlistwidget.cpp IMOS.cpp login.cpp main.cpp missionitem.cpp missionlistwidget.cpp mycustomplot.cpp qcustomplot.cpp selectdatedialog.cpp storeVideo.cpp videoplay.cpp warningwidget.cpp
+         analyze.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         cameralistwidget.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         datalistwidget.cpp
+         moc_analyze.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_cameralistwidget.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_datalistwidget.cpp
+         moc_graphlistwidget.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_login.cpp
+         moc_missionitem.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_missionlistwidget.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_mycustomplot.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_qcustomplot.cpp
+         moc_selectdatedialog.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_videoplay.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_warningwidget.cpp
+         global.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         graphdata.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         graphlistwidget.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         IMOS.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         login.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         main.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         missionitem.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         missionlistwidget.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         mycustomplot.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         qcustomplot.cpp
+         selectdatedialog.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         storeVideo.cpp
+         videoplay.cpp
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\myInstall\opencv320\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         warningwidget.cpp
+         正在生成代码...
+         C:\myInstall\vs2013\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\myInstall\qt5832_msvc2013\5.8\msvc2013\include /IC:\myInstall\qt5832_msvc2013\5.8\msvc2013\include\QtCore /IC:\myInstall\qt5832_msvc2013\5.8\msvc2013\include\QtGui /IC:\myInstall\qt5832_msvc2013\5.8\msvc2013\include\QtPrintSupport /IC:\myInstall\qt5832_msvc2013\5.8\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_analyze.cpp
+         qrc_analyze.cpp
+       Link:
+         C:\myInstall\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\myProject\myPresentation\makefile\analyze\Debug\\analyze.exe" /NOLOGO /LIBPATH:C:\myInstall\qt5832_msvc2013\5.8\msvc2013\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5PrintSupportd.lib Qt5Widgetsd.lib opencv_world320d.lib imos_sdk.lib xp_frame.lib sps_sdk.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\myProject\myPresentation\makefile\analyze\Debug\analyze.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\myProject\myPresentation\makefile\analyze\Debug\analyze.lib" /MACHINE:X86 /SAFESEH Debug\analyze.obj
+         Debug\cameralistwidget.obj
+         Debug\datalistwidget.obj
+         Debug\moc_analyze.obj
+         Debug\moc_cameralistwidget.obj
+         Debug\moc_datalistwidget.obj
+         Debug\moc_graphlistwidget.obj
+         Debug\moc_login.obj
+         Debug\moc_missionitem.obj
+         Debug\moc_missionlistwidget.obj
+         Debug\moc_mycustomplot.obj
+         Debug\moc_qcustomplot.obj
+         Debug\moc_selectdatedialog.obj
+         Debug\moc_videoplay.obj
+         Debug\moc_warningwidget.obj
+         Debug\qrc_analyze.obj
+         Debug\global.obj
+         Debug\graphdata.obj
+         Debug\graphlistwidget.obj
+         Debug\IMOS.obj
+         Debug\login.obj
+         Debug\main.obj
+         Debug\missionitem.obj
+         Debug\missionlistwidget.obj
+         Debug\mycustomplot.obj
+         Debug\qcustomplot.obj
+         Debug\selectdatedialog.obj
+         Debug\storeVideo.obj
+         Debug\videoplay.obj
+         Debug\warningwidget.obj
+         analyze.vcxproj -> D:\myProject\myPresentation\makefile\analyze\Debug\analyze.exe
+     1>已完成生成项目“D:\myProject\myPresentation\makefile\analyze\analyze.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:43.45
